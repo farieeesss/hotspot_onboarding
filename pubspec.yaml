@@ -1,0 +1,50 @@
+name: hotspot_onboarding
+description: Onboarding questionnaire for Hotspot hosts
+publish_to: "none"
+version: 1.0.0+1
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  dio: ^5.9.0
+  json_annotation: ^4.9.0
+  record: ^6.1.2
+  video_player: ^2.10.0
+  image_picker: ^1.2.0
+  path_provider: ^2.1.5
+  permission_handler: ^12.0.1
+  flutter_svg: ^2.0.10+1
+  just_audio: ^0.9.36
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/NextArrow.png
+    - assets/NextArrow.svg
+    - assets/appbarline1.svg
+    - assets/appbarline2.svg
+    - assets/Audio.svg
+    - assets/Video.svg
+  
+  fonts:
+    - family: SpaceGrotesk
+      fonts:
+        - asset: assets/fonts/SpaceGrotesk-Light.ttf
+          weight: 300
+        - asset: assets/fonts/SpaceGrotesk-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/SpaceGrotesk-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/SpaceGrotesk-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/SpaceGrotesk-Bold.ttf
+          weight: 700
+
